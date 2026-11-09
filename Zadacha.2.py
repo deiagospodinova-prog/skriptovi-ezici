@@ -12,7 +12,7 @@ while i<N:
     if n>9 and n<100:
         j+=1
 
-avg=sum/2
+avg=round(sum/2 , 2)
 
 print("Sum: ",sum)
 print("Dvucifreni chisla: ", j)
